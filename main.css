@@ -96,5 +96,45 @@ body{
     -ms-border-radius: 0 0 50% 0;
     -o-border-radius: 0 0 50% 0;
     border-radius: 0 0 50% 0;
-    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%); 
+}
+
+.pp {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid #fff;
+    object-fit: cover;
+}
+
+.card__header h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card__body {
+    padding: 30px;
+}
+
+.card__body h3 {
+    color: var(--dark);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card__body p {
+    color: var(--dark);
+    font-size: 18px;
+    line-height: 1.5;
 }
